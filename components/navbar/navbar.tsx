@@ -76,7 +76,7 @@ export const Navbar = () => {
     {
       label: 'セミナー',
       key: 'Seminar',
-      href: "/Seminar",
+      href: "/seminar",
     },
     {
       label: 'ブログ',
