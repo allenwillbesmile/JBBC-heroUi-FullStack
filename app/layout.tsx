@@ -8,7 +8,7 @@ import {Image} from "@heroui/image";
 import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import { Navbar } from "@/components/navbar/navbar";
-import Content12 from "@/components/homeComponents/content12";
+import Footer from "@/components/footer/footer";
 // import { Footer } from "antd/es/layout/layout";
 // import Footer from "@/components/footer/Footer";
 export const metadata: Metadata = {
@@ -50,8 +50,8 @@ export default function RootLayout({
             <main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
               {children}
             </main>
-            <Content12 />
-            {/* <Footer /> */}
+            
+            <Footer />
           </div>
         </Providers>
       </body>

@@ -57,8 +57,8 @@ export const Navbar = () => {
     },
     {
       label: '選ばれる理由',
-      key: 'whyChooseUse',
-      href: "/whyChooseUse",
+      key: 'inquiry',
+      href: "/inquiry",
     },
     {
       label: 'サービス紹介',

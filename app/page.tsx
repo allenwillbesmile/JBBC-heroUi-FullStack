@@ -17,7 +17,6 @@ import Content8 from "@/components/homeComponents/content8";
 import Content9 from "@/components/homeComponents/content9";
 import Content10 from "@/components/homeComponents/content10";
 import Content11 from "@/components/homeComponents/content11";
-import Content12 from "@/components/homeComponents/content12";
 export default function Home() {
   return (
     <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
@@ -32,7 +31,6 @@ export default function Home() {
       <Content9 />
       <Content10 />
       <Content11 />
-      {/* <Content12/> */}
     </section>
   );
 }

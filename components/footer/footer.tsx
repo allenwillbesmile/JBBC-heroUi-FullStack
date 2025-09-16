@@ -4,21 +4,65 @@
 import { Typography, Row, Col, Button, Image, Input } from "antd";
 import { RightOutlined } from "@ant-design/icons";
 import React from "react";
-
-const Content12: React.FC = () => {
+import ImageGrid from "@/components/animation/sliderAnimation";
+const Footer: React.FC = () => {
   const { Text, Title } = Typography;
   const { Search } = Input;
-
+  const images=[
+    {
+      src: '/home/computerIcon.png',
+      alt: 'Image 1',
+    },
+    {
+      src: '/home/computerIcon.png',
+      alt: 'Image 2',
+    },
+    {
+      src: '/home/computerIcon.png',
+      alt: 'Image 3',
+    },
+    {
+      src: '/home/computerIcon.png',
+      alt: 'Image 4',
+    },
+  
+    {
+      src: '/home/computerIcon.png',
+      alt: 'Image 4',
+    },
+    {
+      src: '/home/computerIcon.png',
+      alt: 'Image 1',
+    },
+    {
+      src: '/home/computerIcon.png',
+      alt: 'Image 2',
+    },
+    {
+      src: '/home/computerIcon.png',
+      alt: 'Image 3',
+    },
+    {
+      src: '/home/computerIcon.png',
+      alt: 'Image 4',
+    },
+  
+    {
+      src: '/home/computerIcon.png',
+      alt: 'Image 4',
+    },
+  ]
   return (
     <div className="font-sans">
 
       {/* Banner Section */}
       <div className="relative w-full">
-        <img
+        <ImageGrid images={images} />
+        {/* <img
           src="/home/computerIcon.png"
           alt="Banner"
           className="w-full h-auto object-cover"
-        />
+        /> */}
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white z-10 px-4">
           <Text className="block text-base md:text-lg mb-2">Features</Text>
           <div  className="text-xl md:text-2xl lg:text-3xl !text-white !mb-6 max-w-4xl mx-auto">
@@ -134,4 +178,4 @@ const Content12: React.FC = () => {
   );
 };
 
-export default Content12;
+export default Footer;
